@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Agenda de Estudantes</string>
+    <string name="btn_add">Adicionar</string>
+    <string name="btn_listAll">Listar Todos</string>
+    <string name="btn_delete">Apagar</string>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_close">Fechar</string>
+    <string name="txt_name">Nome</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_age">Idade</string>
+</resources>
