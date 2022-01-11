@@ -1,23 +1,24 @@
 package br.edu.faculdade.mvpsample;
 
-public class Presenter implements Contract.Presenter, Contract.Model.OnFinishedListener{
-    // creating object of View Interface
+public class Presenter implements Contract.Presenter,
+        Contract.Model.OnFinishedListener{
+    // criando objeto mainView da Interface View
     private Contract.View mainView;
 
-    // creating object of Model Interface
+    // criando objeto da Interface Model
     private Contract.Model model;
 
 
-    // instantiating the objects of View and Model Interface
+    // instanciando os objetos da View e da Model
     public Presenter(Contract.View mainView, Contract.Model model) {
         this.mainView = mainView;
         this.model = model;
     }
 
     @Override
-    // method to return the string
-    // which will be displayed in the
-    // Course Detail TextView
+    // método para retornar a string
+    // que será exibida na TextView de
+    // detalhes do curso
     public void onFinished(String string) {
         if (mainView != null) {
             mainView.setString(string);
@@ -26,8 +27,7 @@ public class Presenter implements Contract.Presenter, Contract.Model.OnFinishedL
     }
 
     @Override
-    // operations to be performed
-    // on button click
+    // operações a serem executadas no clique do botão
     public void onButtonClick() {
         if (mainView != null) {
             mainView.showProgress();
