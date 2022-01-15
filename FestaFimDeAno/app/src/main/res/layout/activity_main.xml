@@ -1,31 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="20dp"
     tools:context="br.edu.faculdade.festafimdeano.views.MainActivity">
+
     <TextView
+        android:id="@+id/text_label_today"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hoje" />
+        android:text="@string/hoje"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="25sp" />
+
     <TextView
         android:id="@+id/text_today"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hoje" />
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/text_label_today"
+        android:text="@string/hoje"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_label_today"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorDivider" />
+
     <TextView
+        android:id="@+id/text_label_days_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dias_restante_para_o_final_do_ano" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/dias_restante_para_o_final_do_ano"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/text_day_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/dias_restante_para_o_final_do_ano" />
+        android:layout_below="@+id/text_label_days_left"
+        android:layout_centerHorizontal="true"
+        android:padding="20sp"
+        android:text="@string/dias"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
     <Button
         android:id="@+id/button_confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sim_nao_naoconfirmado"/>
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorAccent"
+        android:backgroundTintMode="screen"
+        android:padding="30dp"
+        android:text="@string/sim_nao_naoconfirmado"
+        android:textColor="#59524F"
+        android:textSize="24sp" />
+
+</RelativeLayout>

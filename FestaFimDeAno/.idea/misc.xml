@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MARCOSROBERTODEMORAE/OneDrive/Dropbox/SantaLucia/androidtreinamento/FestaFimDeAno/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/MARCOSROBERTODEMORAE/OneDrive/Dropbox/SantaLucia/androidtreinamento/FestaFimDeAno/app/src/main/res/drawable/round_corner_button.xml" value="0.2703125" />
         <entry key="..\:/Users/MARCOSROBERTODEMORAE/OneDrive/Dropbox/SantaLucia/androidtreinamento/FestaFimDeAno/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/MARCOSROBERTODEMORAE/OneDrive/Dropbox/SantaLucia/androidtreinamento/FestaFimDeAno/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MARCOSROBERTODEMORAE/OneDrive/Dropbox/SantaLucia/androidtreinamento/FestaFimDeAno/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/MARCOSROBERTODEMORAE/OneDrive/Dropbox/SantaLucia/androidtreinamento/FestaFimDeAno/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1111111111111111" />
       </map>
     </option>
   </component>

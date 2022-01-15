@@ -6,14 +6,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context="br.edu.faculdade.festafimdeano.views.DetailsActivity">
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="8dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:layout_gravity="center"
         android:text="@string/voce_vai_participar"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary" />
     <CheckBox
         android:id="@+id/check_participate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:layout_gravity="center"
+        android:layout_weight="8"
+        android:textSize="30sp"
         android:text="@string/voce_vai_participar"/>
 </LinearLayout>
