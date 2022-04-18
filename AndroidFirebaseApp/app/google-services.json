@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387202149249",
+    "project_id": "androidfirebaseapp-ef6da",
+    "storage_bucket": "androidfirebaseapp-ef6da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387202149249:android:e7834fb55bc7f302e25680",
+        "android_client_info": {
+          "package_name": "net.maromo.androidfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387202149249-3o3l9efi2trt0c5h80kc72avlnibfaet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpk1qFveaVovFfIrYpDOZGI_xPOr8mriw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387202149249-3o3l9efi2trt0c5h80kc72avlnibfaet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

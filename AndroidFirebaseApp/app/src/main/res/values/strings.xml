@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroidFirebaseApp</string>
+    <string name="firebase_project">Firebase Project</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="newaccount">Nova Conta</string>
+    <string name="show_password">Mostrar Senha</string>
+    <string name="login">Login</string>
+    <string name="register">Registrar</string>
+    <string name="logout">Logout</string>
+    <string name="add">Adicionar</string>
+    <string name="product_description">Descrição Produto</string>
+    <string name="product_price">Preço do Produto</string>
+    <string name="product_activate">Produto Ativo ?</string>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_close">Fechar</string>
+    <string name="btn_delete">Apagar</string>
+    <string name="products_list">Lista de Produtos</string>
+    <string name="password_confirm">Redigite a senha</string>
+</resources>
