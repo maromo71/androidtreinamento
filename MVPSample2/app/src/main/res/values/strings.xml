@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">| MVP Samples |</string>
+    <string name="buttonText">Apresentar Próximo Tópico</string>
+    <string name="heading">MVP Architecture Pattern</string>
+    <string name="subHeading">Cursos TI - Tecnologia</string>
+    <string name="description">Descrição do Curso</string>
+</resources>
